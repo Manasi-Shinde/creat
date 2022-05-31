@@ -1,0 +1,202 @@
+.article {
+    background-color: rgba(20, 20, 31, 255);
+    height: 540px;
+}
+
+.articlepic {
+    height: 500px;
+    margin-left: 120px;
+}
+
+.section {
+    background-color: rgba(20, 20, 31, 255);
+    display: grid;
+    float: right;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+.form1 {
+    margin-bottom: 30px;
+}
+
+.share {
+    font-size: x-large;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+.para2 {
+    font-size: 12px;
+}
+
+.input {
+    width: 440px;
+    height: 35px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: rgba(20, 20, 31, 255);
+    margin-bottom: 20px;
+}
+
+.input1 {
+    width: 440px;
+    height: 80px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: black;
+    color: gray;
+}
+
+.input2 {
+    width: 440px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 0px;
+    height: 210px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+    height: 50px;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.bell {
+    height: 30px;
+    width: 30px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.fb {
+    color: white;
+    margin-left: 700px;
+    font-size: 23px;
+}
+
+.square {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.moon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(20, 20, 31, 255);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.button {
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    border: 2px solid blue;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+}
+
+.wallet {
+    height: 15px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+.arrow {
+    height: 25px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* 
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: red;
+} */
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
